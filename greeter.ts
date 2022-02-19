@@ -6,6 +6,6 @@ export class Greeter {
   }
 
   getGreeting() {
-    console.log(`Olá, ${this.greeting}`);
+    return `Olá, ${this.greeting}`;
   }
 }
